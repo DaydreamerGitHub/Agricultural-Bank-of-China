@@ -1,0 +1,26 @@
+
+
+.goback{
+	position: absolute;
+	left: 0;
+	width: 1.26rem;
+	height: 100%;
+	display: inline-block;
+}
+	.goback i{
+		line-height: 1.55rem;
+		position: absolute;
+		margin:auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+		color: #00C3AC;
+	}
+
+.main section{
+	width: 100%;
+	height: 4.32rem;
+	border-bottom: 2px solid #D8D8D8;
+	background:#fff;
+	padding-top: .34rem;
+}

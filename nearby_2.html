@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!--让IE以最新的内核渲染 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<!--让视口宽度为设备宽度,不允许用户缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<!--不自动识别电话号码和邮编 -->
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="format-detection" content="email=no"/>
+	<title>Document</title>
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/header_footer2.css">
+	<link rel="stylesheet" href="css/nearby2.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<span class="goback"><i class="fa fa-chevron-left"></i></span>
+			<h3>商铺列表</h3>
+		</header>
+
+		<main class="main" id="main">
+			<div class="iscroller">
+				<section></section>
+				<section></section>
+			</div>
+		</main>
+
+		<footer class="footer" id="footer">
+					<a href="index.html">
+						<i></i>
+						<p>首页</p>
+					</a>
+					<a href="#">
+						<i></i>
+						<p>投资</p>
+					</a>
+					<a href="#">
+						<i></i>
+						<p>商城</p>
+					</a>
+					<a href="#">
+						<i class="footerblue3"></i>
+						<p class="footercolor0">附近</p>
+					</a>
+					<a href="#">
+						<i></i>
+						<p>我的</p>
+					</a>
+				</footer>
+	</div>
+</body>
+<script src="js/iscroll5.js"></script>
+<script src="js/zepto.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/nearby.js"></script>
+<script>
+	var myScroll = new IScroll('#main', {
+	   
+	});
+	document.documentElement.style.fontSize=document.documentElement.offsetWidth/11.25+'px';
+</script>
+</html>

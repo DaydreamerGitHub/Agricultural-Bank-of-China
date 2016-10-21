@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@import url("reset.css");
+html, body, .box {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+a, img {
+  -webkit-tap-highlight-color: transparent; }
+
+html {
+  font-size: 625%; }
+
+body {
+  font-size: 16px;
+  font-family: "微软雅黑";
+  background: #F2F2F2; }
+
+ul, ol {
+  list-style: none; }
+
+.box {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+/*----------------头部-------------------------*/
+.header {
+  width: 100%;
+  height: 1.55rem;
+  position: relative;
+  background: #fff;
+  margin-bottom: 0.7rem;
+  background: #00AA91; }
+  .header a {
+    position: absolute;
+    width: 0.45rem;
+    height: 0.81rem;
+    top: 50%;
+    margin-top: -0.4rem;
+    font-size: 0;
+    background: url("../img/b_x.png") no-repeat;
+    background-size: cover;
+    left: 0.65rem; }
+  .header h2 {
+    width: 4.33rem;
+    height: 1.55rem;
+    margin: 0 auto;
+    line-height: 1.55rem;
+    font-size: 0.56rem;
+    color: #000;
+    text-align: center; }
+
+/*----------------主体-------------------------*/
+.main {
+  -webkit-flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+.insurance {
+  width: 100%;
+  border-top: 1px solid #E7E7E7;
+  border-bottom: 1px solid #E7E7E7;
+  background: #fff; }
+  .insurance div {
+    width: 100%;
+    height: 1.57rem;
+    display: -webkit-flex; }
+    .insurance div:nth-last-of-type(1) {
+      border: none; }
+    .insurance div span {
+      width: 1.83rem;
+      height: 1.57rem; }
+      .insurance div span img {
+        display: block;
+        width: 1.14rem;
+        height: 1.14rem;
+        margin: 0.23rem auto; }
+    .insurance div p {
+      -webkit-flex-grow: 1;
+      border-bottom: 1px solid #E7E7E7;
+      font-size: 0.52rem;
+      color: #6A6A6A;
+      line-height: 1.57rem;
+      padding-right: 0.54rem; }
+    .insurance div em {
+      float: right;
+      width: 0.35rem;
+      height: 0.52rem;
+      background: url(../img/b_h.png) no-repeat;
+      background-size: cover;
+      margin-top: 0.5rem; }
+
+/*# sourceMappingURL=insurance1.css.map */

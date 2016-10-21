@@ -1,0 +1,131 @@
+.header{
+	height: 2.84rem;
+	background: #fff;
+	border-bottom: 2px solid #ccc;
+}
+
+.main{
+	background: #fff;
+	.inform{
+		margin: 0 0.36rem;
+		h2{
+			height: 1.3rem;
+			line-height: 1.3rem;
+			font-size: .6rem;
+			color: #304056;
+			background: url(../img/x1.png);
+			b{
+				margin-left: .22rem;
+			}
+		}
+		h3{
+			height: 1.3rem;
+			line-height: 1.3rem;
+			font-size: .52rem;
+			margin-left: .22rem;
+			span{
+				font-size: .34rem;
+				&:nth-of-type(1){
+					color:#666;
+				}
+				&:nth-of-type(2){
+					color: #FF0000;
+				}
+			}
+		}
+		input{
+			width: 4.38rem;
+			height: 1.06rem;
+			background: #FF991D;
+			color: #fff;
+			font-size: .44rem;
+			border: none;
+			border-radius: 5px;
+		}
+	}
+	.commodity{
+		width: 10rem;
+		height: 7.6rem;
+		margin: 0.54rem;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.gift{
+		border-top: 2px solid #ccc;
+		h3{
+			height: 1.62rem;
+			border-bottom: 2px solid #ccc;
+			line-height: 1.62rem;
+			position: relative;
+			b{
+				color: #67BACA;
+				margin-left: .24rem;
+				font-size: .6rem;
+			}
+			i{
+				position: absolute;
+				right: .24rem;
+				top: 50%;
+				margin-top: -0.14rem;
+				color: #666;
+				font-size: .28rem;
+			}
+		}
+		ul{
+			width: 100%;
+			background-color:#E9E9E9;
+			background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #E7E6E6), color-stop(0.05, #F6F6F6), color-stop(1, #fff));
+			li{
+				font-size: .46rem;
+				color: #5C697B;
+				line-height: 1.2rem;
+				margin-left: .6rem;
+				margin-right: .6rem;
+				&:first-child{
+					padding-top:0.6rem;
+				}
+				&:last-child{
+					line-height: .8rem;
+				}
+			}
+		}
+	}
+	.interest{
+		border-top: 2px solid #ccc;
+		margin-top: 1.5rem;
+		h3{
+			height: 1.62rem;
+			border-bottom: 2px solid #ccc;
+			line-height: 1.62rem;
+			b{
+				color: #324257;
+				margin-left: .24rem;
+				font-size: .52rem;
+			}
+		}
+		dl{
+			display: flex;
+			margin-top: .64rem;
+			padding-bottom: .7rem;
+			margin-left: .26rem;
+			margin-right: .26rem;
+			border-bottom:1px #ccc dotted;
+			dt{
+				width:4rem;
+				height: 4.55rem;
+				margin-left: .5rem;
+				img{
+					width: 100%;
+					height: 100%;
+				}
+			}
+			dd{
+				-webkit-flex-grow:1;
+				font-size: .48rem;
+				margin-left: .4rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,153 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body,.container{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+a,img{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+html{
+	font-size:625%;
+}
+body{
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+}
+
+.container{
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+}
+
+.header{
+	width:100%;
+	height:1.55rem;
+}
+
+.main{
+	-webkit-flex:1;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+
+
+
+body{
+	background: #eee;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	display: -webkit-flex;
+ 	-webkit-flex-direction: column; 
+}
+.header{
+	width: 100%;
+	height: 1.55rem;
+	position: relative;
+	border-bottom: 1px solid #eee;
+	background:#fff;
+
+}
+.header h3{
+	text-align: center;
+	line-height: 1.55rem;
+	padding-left: 1.41rem;
+	padding-right: 1.9rem;
+}
+
+.main{
+	width: 100%;
+	-webkit-flex-grow: 1;
+}
+
+#footer{
+	width: 100%;
+	height: 1.76rem;
+	border-top: 1px solid #D3D3D3;
+	display: -webkit-flex;
+	padding-top: .2rem;
+	background:#fff;
+}
+	
+	#footer a{
+		-webkit-flex:1;
+		text-decoration: none;
+	}
+	#footer a{
+		list-style: none;
+		width: 100%;
+		height: 100%;
+		float: left;
+	}
+	
+	#footer i{
+		display: block;
+		width: .77rem;
+		height: .76rem;
+		margin:auto;
+	}
+	#footer p{
+		font-size: .39rem;
+		color: #848484;
+		text-align: center;
+
+		margin:0;
+		padding:0;
+	}
+	#footer p.footercolor0{
+		color: #00D3C4;
+	}
+
+
+	#footer a:nth-of-type(1) i{
+		background:url(../img/zzy_shou2.png);
+		background-size:100% 100%;
+	}
+	#footer a:nth-of-type(1) i.footerblue0{
+		background:url(../img/zzy_shou1.png);
+		background-size:100% 100%;
+	}
+
+	#footer a:nth-of-type(2) i {
+		background:url(../img/zzy_tou2.png);
+		background-size:100% 100%;
+	}
+	#footer a:nth-of-type(2) i.footerblue1{
+		background:url(../img/zzy_tou1.png);
+		background-size:100% 100%;
+	}
+
+	#footer a:nth-of-type(3) i {
+		background:url(../img/zzy_shang2.png);
+		background-size:100% 100%;
+	}
+	#footer a:nth-of-type(3) i.footerblue2{
+		background:url(../img/zzy_shang1.png);
+		background-size:100% 100%;
+	}
+
+	#footer a:nth-of-type(4) i {
+		background:url(../img/zzy_fu2.png);
+		background-size:100% 100%;
+	}
+	#footer a:nth-of-type(4) i.footerblue3{
+		background:url(../img/zzy_fu1.png);
+		background-size:100% 100%;
+	}
+
+	#footer a:nth-of-type(5) i {
+		background:url(../img/zzy_wo2.png);
+		background-size:100% 100%;
+	}
+	#footer a:nth-of-type(5) i.footerblue4{
+		background:url(../img/zzy_wo1.png);
+		background-size:100% 100%;
+	}
